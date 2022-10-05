@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+img#google {
+  width: 2rem;
+  position: relative;
+  left: 20rem;
+  bottom: -7rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img#apple {
+  width: 4rem;
+  position: relative;
+  left: 21rem;
+  bottom: -7rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+button#button1 {
+  left: 14rem;
+  width: 20.5rem;
+  position: relative;
+  bottom: -5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.sidepic img {
+  left: 51rem;
+  width: 40rem;
+  height: 42rem;
+  
+  position: relative;
+  
+  bottom: 36rem;
+  border: 4px;
+  
+  border-radius: 4rem;
 }
 
-.App-link {
-  color: #61dafb;
+.main_logo img {
+  position: relative;
+  left: 18rem;
+  bottom: -2rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+#forgot_password h4 {
+  position: relative;
+  left: 19rem;
+  bottom: -7rem;
+  color: #008FE4;
+}
+
+#treeved_acc h4 {
+  position: relative;
+  left: 20.8rem;
+  bottom: -6rem;
+  color: #008FE4;
+}
+
+a{
+  text-decoration: none;
+} 
+
+h6 {
+  position: relative;
+  left: 17.7rem;
+  bottom: -7.3rem;
+  font-size: 0.8rem;
+  font-weight: 600;
+}
+
+/* div#Password {
+  position: relative;
+  left: -8rem;
+  bottom: -6rem;
+}
+
+div#Username {
+  position: relative;
+  left: 13.4rem;
+  bottom: -1.4rem;
+} */
+
+.Grid_main {
+  position: relative;
+  left: 13.4rem;
+  bottom: -2rem;
+}
+
+@media(max-width: 1000px){
+  .sidepic{
+    display: none;
   }
 }
